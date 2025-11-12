@@ -29,7 +29,8 @@ class TestUsers(TransactionCase):
                     'name': 'Marie-Noël',
                     'login': 'mnv',
                 })
-        self.assertEqual(user.description, None)
+        self.assertIsNotNone(user.description)
+
 
 
 
