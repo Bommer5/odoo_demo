@@ -29,7 +29,6 @@ class TestUsers(TransactionCase):
             'description': 'I love Odoo',
         })
         self.assertIsNotNone(user.description)
-        
 
 
 
